@@ -2,7 +2,7 @@ name: CI_test_pipeline1
 on:
   pull_request_target:
     branches:
-      - main
+      - new_branch
     types:
       - opened
 jobs:
